@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Customer Revenue Report</h1>
+    <h2>Yearly Total Revenue</h2>
+    <table>
+   {{ total_revenue|safe }}
+</table>
+    <h2>New Customer Yearly Revenue</h2>
+    <table>
+   {{ new_customer_revenue|safe }}
+    </table>
+    <h2>Existing Customer Yearly Revenue</h2>
+    <table>
+   {{ existing_customer_revenue|safe }}
+    </table>
+</body>
+</html>
